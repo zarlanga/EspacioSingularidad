@@ -1,0 +1,71 @@
+
+
+<html>
+    <head>
+        <title>Espacio Singularidad</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
+        <link rel="shortcut icon" href="imagen/dedo.png" />    
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="main.js"> </script>
+    </head>
+    <body>       
+        <header>  
+            <div class="contenedor">  
+               <a class="logo">  
+               
+                 <img src="imagen/dedos.png" width: 100px;>
+               </a> 
+    
+                 <nav class="menu">         
+                     <ul>
+                         <li><img src="imagen/dedo.png" style="width: 10px; height: 15px"> <a href="index.html">Home</a></li>
+                         <li><img src="imagen/dedo.png" style="width: 10px; height: 15px"><a href="nosotros.html">Quiénes Somos</a></li>
+                         <li><img src="imagen/dedo.png" style="width: 10px; height: 15px"><a href="historia.html">Nuestra Historia</a></li>
+                         <li><img src="imagen/dedo.png" style="width: 10px; height: 15px"><a href="ubicación.html">Especialistas</a></li>
+                         <li><img src="imagen/dedo.png" style="width: 10px; height: 15px"><a href="galería.html">Galería</a></li>
+                         <li><img src="imagen/dedo.png" style="width: 10px; height: 15px"><a href="contactanos.html">Contáctenos</a></li>
+                     </ul>                 
+                 </nav>
+            </div>        
+        </header>   
+             <div class="contenedor">
+                <h2>Quiénes Somos </h2>
+                
+                <p> Somos un grupo de profesionales -sordos y oyentes- que trabajamos de manera
+interdisciplinaria con un objetivo común: acompañar, desde un abordaje integral a las
+personas sordas, en su propia singularidad. Buscamos centrar nuestra mirada en las
+particularidades de los recorridos de cada sujeto -y su familia-, sea cual fuere el momento
+en que se encuentre. Entendemos que el aporte de las diferentes áreas profesionales que
+conforman Espacio Singularidad es fundamental para abordar la realidad de cada paciente,
+única e irrepetible. Deseamos, entonces, que nuestro trabajo pueda constituirse como un
+espacio que permita el surgimiento de la singularidad de cada persona sorda, tomando en
+cuenta las cuestiones médicas, terapéuticas, pedagógicas y otras, que van configurando su
+trayectoria.                                                                  
+                
+                
+                
+              
+                </p>                
+             </div>  
+        <footer id="cola" onmouseover="dignidad(true)" onmouseout="dignidad(false)" >  Copyright 2018 / All rights reserved </u></footer>
+        <script type="text/javascript">
+
+            function icoico() {
+                document.getElementById("imagenlogo").src = "imagen/dedos.png";
+            }
+                function dignidad(boo) {
+                if (boo) {
+                    document.getElementById("cola").innerHTML = "|| Random Developer ||";
+                    document.getElementById("cola").style.color = "#aaaaaaa"
+                    //document.getElementById("cola").style.fontSize="xx-large";
+                } else {
+                    document.getElementById("cola").innerHTML = "<u>Copyright 2018 / All rights reserved  </u>"
+                    document.getElementById("cola").style.color = "#ffffff"
+                }
+            }
+        </script>
+    </body>
+</html>
+
