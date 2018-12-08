@@ -62,10 +62,10 @@ equipos interdisciplinarios.</h3>
 <h3>- Difusión y Concientización acerca de las personas sordas.</h3>
            
 
-            <div id="cont"  onmouseenter="girar()" onmouseout="parar()" style="background-color:transparent; position:relative; height:1000px; width:700px"> 
+            <div id="cont"  onmouseenter="girar()"  style="background-color:transparent; position:relative; height:1000px; width:800px"> 
 
                 <div id="circulo1" style=" position:absolute;  ">
-                    <a href="cvfulano.html">
+                    <a href="cv.html">
                         <img style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol.png">
                         <svg width="150" height="150" style="position:absolute; left:0; top:0">
                         <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="blue" stroke="transparent" style="z-index:-1"></circle>
@@ -74,7 +74,7 @@ equipos interdisciplinarios.</h3>
                     </a>
                 </div>
                 <div id="circulo2" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
-                    <a href="cvfulano.html">
+                    <a href="cv.html">
                         <img style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol.png">
                         <svg width="150" height="150" style="position:absolute; left:0; top:0">
                         <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="green" stroke="transparent" style="z-index:-1"></circle>
@@ -83,7 +83,7 @@ equipos interdisciplinarios.</h3>
                     </a>
                 </div>
                 <div id="circulo3" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
-                    <a href="cvfulano.html">
+                    <a href="cv.html">
                         <img style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol.png">
                         <svg width="150" height="150" style="position:absolute; left:0; top:0">
                         <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="yellow" stroke="transparent" style="z-index:-1"></circle>
@@ -93,7 +93,7 @@ equipos interdisciplinarios.</h3>
                 </div>
 
                 <div id="circulo4" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
-                    <a href="cvfulano.html">
+                    <a href="cv.html">
                         <img style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol.png">
                         <svg width="150" height="150" style="position:absolute; left:0; top:0">
                         <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="red" stroke="transparent" style="z-index:-1"></circle>
@@ -102,7 +102,7 @@ equipos interdisciplinarios.</h3>
                     </a>
                 </div>
                 <div id="circulo5" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
-                    <a href="cvfulano.html">
+                    <a href="cv.html">
                         <img style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol.png">
                         <svg width="150" height="150" style="position:absolute; left:0; top:0">
                         <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="orange" stroke="transparent" style="z-index:-1"></circle>
@@ -111,7 +111,7 @@ equipos interdisciplinarios.</h3>
                     </a>
                 </div>
                 <div id="circulo6" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
-                    <a href="cvfulano.html">
+                    <a href="cv.html">
                         <img style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol.png">
                         <svg width="150" height="150" style="position:absolute; left:0; top:0">
                         <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="purple" stroke="transparent" style="z-index:-1"></circle>
@@ -170,6 +170,7 @@ equipos interdisciplinarios.</h3>
                     clearInterval(timer);
                     rotAnt += rot;
                     rot = 0;
+                    dale=true;
                     //alert("caca");
                 }
             }
@@ -180,12 +181,13 @@ equipos interdisciplinarios.</h3>
 
 
             function girar() {
-                //if (dale) {
+                if (dale) {
                 timer = setInterval(function () {
                     posicionar()
                 }, 10);
-                //dale=false;
-                // } else {
+                dale=false;
+                 }
+                 //else {
                 //clearInterval(timer);
                 //dale=true;
                 //}
@@ -194,6 +196,7 @@ equipos interdisciplinarios.</h3>
             
             function parar() {
                 clearInterval(timer);
+                dale=true;
             }
 
 
