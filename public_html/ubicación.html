@@ -64,59 +64,63 @@
 
             <div id="cont"  onmouseenter="calesita()"    style="background-color:transparent; position:relative; height:1000px; width:800px"> 
 
-                <div id="circulo1" onmouseenter="parar()" onmouseleave="calesita()" style=" position:absolute;  ">
+                <div id="circulo1" onmouseenter="parar(); seleccionar(1,true);" onmouseleave="calesita(); seleccionar(1,false);" style=" position:absolute;  ">
                     <a href="cv.html">
-                        <img style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol2.png">
-                        <svg width="150" height="150" style="position:absolute; left:0; top:0">
-                        <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="#43a238" stroke="transparent" style="z-index:-1"></circle>
-                        </svg>
-                        <p style= "width:150px; position:absolute; top:150px; text-align: center">Asesoría</p> 
-                    </a>
-                </div>
-                <div id="circulo2" onmouseenter="parar()" onmouseleave="calesita()" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
-                    <a href="cv.html">
-                        <img style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol3.png">
-                        <svg width="150" height="150" style="position:absolute; left:0; top:0">
-                        <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="#1897cc" stroke="transparent" style="z-index:-1"></circle>
-                        </svg>
-                        <p style= "width:150px; position:absolute; top:150px; text-align: center">Acompañamiento Terapéutico</p>
-                    </a>
-                </div>
-                <div id="circulo3" onmouseenter="parar()" onmouseleave="calesita()" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
-                    <a href="cv.html">
-                        <img style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol4.png">
-                        <svg width="150" height="150" style="position:absolute; left:0; top:0">
-                        <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="#cc66ad" stroke="transparent" style="z-index:-1"></circle>
-                        </svg>
-                        <p style= "width:150px; position:absolute; top:150px; text-align: center">Psicopedagogía</p>
-                    </a>
-                </div>
-
-                <div id="circulo4" onmouseenter="parar()" onmouseleave="calesita()" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
-                    <a href="cv.html">
-                        <img style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol5.png">
+                        <img id="i1" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol2.png">
                         <svg width="150" height="150" style="position:absolute; left:0; top:0">
                         <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="red" stroke="transparent" style="z-index:-1"></circle>
                         </svg>
-                        <p style= "width:150px; position:absolute; top:150px; text-align: center"> Psicología</p>
+                        <p id="p1" style= "width:150px; position:absolute; top:150px; text-align: center">Asesoría</p> 
                     </a>
                 </div>
-                <div id="circulo5" onmouseenter="parar()" onmouseleave="calesita()" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
+                
+                <div id="circulo2" onmouseenter="parar(); seleccionar(2,true);" onmouseleave="calesita(); seleccionar(2,false);" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
                     <a href="cv.html">
-                        <img style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol6.png">
+                        <img id="i2" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol3.png">
                         <svg width="150" height="150" style="position:absolute; left:0; top:0">
                         <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="orange" stroke="transparent" style="z-index:-1"></circle>
                         </svg>
-                        <p style= "width:150px; position:absolute; top:150px; text-align: center"> Fonoaudiología</p>
+                        <p id="p2" style= "width:150px; position:absolute; top:150px; text-align: center">Acompañamiento Terapéutico</p>
                     </a>
                 </div>
-                <div id="circulo6" onmouseenter="parar()" onmouseleave="calesita()" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
+                
+                <div id="circulo3" onmouseenter="parar(); seleccionar(3,true);" onmouseleave="calesita(); seleccionar(3,false);" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
                     <a href="cv.html">
-                        <img style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol7.png">
+                        <img id="i3" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol4.png">
                         <svg width="150" height="150" style="position:absolute; left:0; top:0">
                         <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="#e5de4d" stroke="transparent" style="z-index:-1"></circle>
                         </svg>
-                        <p style= "width:150px; position:absolute; top:150px; text-align: center"> Otorrinolaringología</p>
+                        <p id="p3" style= "width:150px; position:absolute; top:150px; text-align: center">Psicopedagogía</p>
+                    </a>
+                </div>
+
+                <div id="circulo4" onmouseenter="parar(); seleccionar(4,true);" onmouseleave="calesita(); seleccionar(4,false);" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
+                    <a href="cv.html">
+                        <img id="i4" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol5.png">
+                        <svg width="150" height="150" style="position:absolute; left:0; top:0">
+                        <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="#43a238" stroke="transparent" style="z-index:-1"></circle>
+                        </svg>
+                        <p id="p4" style= "width:150px; position:absolute; top:150px; text-align: center"> Psicología</p>
+                    </a>
+                </div>
+                
+                <div id="circulo5" onmouseenter="parar(); seleccionar(5,true);" onmouseleave="calesita(); seleccionar(5,false);" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
+                    <a href="cv.html">
+                        <img id="i5" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol6.png">
+                        <svg width="150" height="150" style="position:absolute; left:0; top:0">
+                        <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="#1897cc" stroke="transparent" style="z-index:-1"></circle>
+                        </svg>
+                        <p id="p5" style= "width:150px; position:absolute; top:150px; text-align: center"> Fonoaudiología</p>
+                    </a>
+                </div>
+                
+                <div id="circulo6" onmouseenter="parar(); seleccionar(6,true);" onmouseleave="calesita(); seleccionar(6,false)" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
+                    <a href="cv.html">
+                        <img id="i6" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol7.png">
+                        <svg width="150" height="150" style="position:absolute; left:0; top:0">
+                        <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="#cc66ad" stroke="transparent" style="z-index:-1"></circle>
+                        </svg>
+                        <p id="p6" style= "width:150px; position:absolute; top:150px; text-align: center"> Otorrinolaringología</p>
                     </a>
                 </div>
 
@@ -136,6 +140,7 @@
             //radio de la calesita
             var radio = 250;
 
+            
 
             var container = document.getElementById(idContainer);
             var circulos = [];
@@ -217,6 +222,11 @@
                 //clearInterval(timer); //comentar esta linea para el trompo loco
                 dale1=true;
                 
+            }
+            
+            function seleccionar(nro, sel) {
+                document.getElementById("p"+nro).style.top= sel ? "65px" : "150px";
+                document.getElementById("i"+nro).style.display=sel ? "none" : "block";
             }
             
             posicionar();
