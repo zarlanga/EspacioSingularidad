@@ -19,12 +19,12 @@
 
                 <nav class="menu">         
                     <ul>
-                        <li><img src="imagen/dedo.png" style="width: 10px; height: 15px"> <a href="index.html">Home</a></li>
-                        <li><img src="imagen/dedo.png" style="width: 10px; height: 15px"><a href="nosotros.html">Quiénes Somos</a></li>
-                        <li><img src="imagen/dedo.png" style="width: 10px; height: 15px"><a href="historia.html">Nuestra Historia</a></li>
-                        <li><img src="imagen/dedo.png" style="width: 10px; height: 15px"><a href="ubicación.html">Especialistas</a></li>
-                        <li><img src="imagen/dedo.png" style="width: 10px; height: 15px"><a href="galería.html">Galería</a></li>
-                        <li><img src="imagen/dedo.png" style="width: 10px; height: 15px"><a href="contactanos.html">Contáctenos</a></li>
+                        <li id="m1"> <img src="imagen/dedo.png" style="width: 10px; height: 15px"> <a id="m1" href="index.html">Home</a></li>
+                         <li id="m2"> <img src="imagen/dedo.png" style="width: 10px; height: 15px"> <a id="m2" href="nosotros.html">Quiénes Somos</a></li>
+                         <li id="m3"> <img src="imagen/dedo.png" style="width: 10px; height: 15px"> <a id="m3" href="historia.html">Nuestra Historia</a></li>
+                         <li id="m4"> <img src="imagen/dedo.png" style="width: 10px; height: 15px"> <a id="m4" href="ubicación.html">Especialistas</a></li>
+                         <li id="m5"> <img src="imagen/dedo.png" style="width: 10px; height: 15px"> <a id="m5" href="galería.html">Galería</a></li>
+                         <li id="m6"> <img src="imagen/dedo.png" style="width: 10px; height: 15px"> <a id="m6" href="contactanos.html">Contáctenos</a></li>
                     </ul>                 
                 </nav>
             </div>        
@@ -62,33 +62,33 @@
             <h3>- Difusión y Concientización acerca de las personas sordas.</h3>
 
 
-            <div id="cont"  onmouseenter="calesita()"    style="background-color:transparent; position:relative; height:1000px; width:800px"> 
-
+            <div id="cont"  onmouseenter="calesita()"    style="background-color:transparent; position:relative; height:1000px; width:800px; margin:0px auto 0px auto;"> 
+            <img  style= "width: 150px; height: 150px; position:absolute; left:400px; top:400px; z-index:1" src="imagen/dedo.png">
                 <div id="circulo1" onmouseenter="parar(); seleccionar(1,true);" onmouseleave="calesita(); seleccionar(1,false);" style=" position:absolute;  ">
                     <a href="cv.html">
-                        <img id="i1" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol2.png">
+                        <!--img id="i1" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol2.png"-->
                         <svg width="150" height="150" style="position:absolute; left:0; top:0">
-                        <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="red" stroke="transparent" style="z-index:-1"></circle>
+                        <circle r="70" cx="75" cy="75" class="external-circle" stroke-width="10" fill="transparent" stroke="#C24157" style="z-index:-1"></circle>
                         </svg>
                         <p id="p1" style= "width:150px; position:absolute; top:65px; text-align: center">Asesoría</p> 
                     </a>
                 </div>
-                
+
                 <div id="circulo2" onmouseenter="parar(); seleccionar(2,true);" onmouseleave="calesita(); seleccionar(2,false);" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
                     <a href="cv.html">
-                        <img id="i2" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol3.png">
+                        <!--img id="i2" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol3.png"-->
                         <svg width="150" height="150" style="position:absolute; left:0; top:0">
-                        <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="orange" stroke="transparent" style="z-index:-1"></circle>
+                        <circle r="70" cx="75" cy="75" class="external-circle" stroke-width="10" fill="transparent" stroke="#ED8E56" style="z-index:-1"></circle>
                         </svg>
                         <p id="p2" style= "width:150px; position:absolute; top:65px; text-align: center">Acompañamiento Terapéutico</p>
                     </a>
                 </div>
-                
+
                 <div id="circulo3" onmouseenter="parar(); seleccionar(3,true);" onmouseleave="calesita(); seleccionar(3,false);" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
                     <a href="cv.html">
-                        <img id="i3" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol4.png">
+                        <!--img id="i3" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol4.png"-->
                         <svg width="150" height="150" style="position:absolute; left:0; top:0">
-                        <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="#e5de4d" stroke="transparent" style="z-index:-1"></circle>
+                        <circle r="70" cx="75" cy="75" class="external-circle" stroke-width="10" fill="transparent" stroke="#FDCE72" style="z-index:-1"></circle>
                         </svg>
                         <p id="p3" style= "width:150px; position:absolute; top:65px; text-align: center">Psicopedagogía</p>
                     </a>
@@ -96,29 +96,29 @@
 
                 <div id="circulo4" onmouseenter="parar(); seleccionar(4,true);" onmouseleave="calesita(); seleccionar(4,false);" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
                     <a href="cv.html">
-                        <img id="i4" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol5.png">
+                        <!--img id="i4" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol5.png"-->
                         <svg width="150" height="150" style="position:absolute; left:0; top:0">
-                        <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="#43a238" stroke="transparent" style="z-index:-1"></circle>
+                        <circle r="70" cx="75" cy="75" class="external-circle" stroke-width="10" fill="transparent" stroke="#90b784" style="z-index:-1"></circle>
                         </svg>
                         <p id="p4" style= "width:150px; position:absolute; top:65px; text-align: center"> Psicología</p>
                     </a>
                 </div>
-                
+
                 <div id="circulo5" onmouseenter="parar(); seleccionar(5,true);" onmouseleave="calesita(); seleccionar(5,false);" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
                     <a href="cv.html">
-                        <img id="i5" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol6.png">
+                        <!--img id="i5" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol6.png"-->
                         <svg width="150" height="150" style="position:absolute; left:0; top:0">
-                        <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="#1897cc" stroke="transparent" style="z-index:-1"></circle>
+                        <circle r="70" cx="75" cy="75" class="external-circle" stroke-width="10" fill="transparent" stroke="#5F5B8E" style="z-index:-1"></circle>
                         </svg>
                         <p id="p5" style= "width:150px; position:absolute; top:65px; text-align: center"> Fonoaudiología</p>
                     </a>
                 </div>
-                
+
                 <div id="circulo6" onmouseenter="parar(); seleccionar(6,true);" onmouseleave="calesita(); seleccionar(6,false)" style="background-color:transparent; position:absolute; height:150px; width:150px;left:350px; top:350px"> 
                     <a href="cv.html">
-                        <img id="i6" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol7.png">
+                        <!--img id="i6" style= "width: 150px; height: 150px; position:absolute; left:0; top:0; z-index:1" src="imagen/pipol7.png"-->
                         <svg width="150" height="150" style="position:absolute; left:0; top:0">
-                        <circle r="75" cx="75" cy="75" class="external-circle" stroke-width="4" fill="#cc66ad" stroke="transparent" style="z-index:-1"></circle>
+                        <circle r="70" cx="75" cy="75" class="external-circle" stroke-width="10" fill="transparent" stroke="#B04A71" style="z-index:-1"></circle>
                         </svg>
                         <p id="p6" style= "width:150px; position:absolute; top:65px; text-align: center"> Otorrinolaringología</p>
                     </a>
@@ -140,7 +140,7 @@
             //radio de la calesita
             var radio = 250;
 
-            
+
 
             var container = document.getElementById(idContainer);
             var circulos = [];
@@ -158,13 +158,13 @@
                 //alert(circulos[circulos.length-1]);
             }
 
-            
+
             function posicionar() {
                 var posinicial = container.offsetWidth / 2 - circulos[0].offsetWidth / 2;
 
                 var angulo = (Math.PI * 2) / circulos.length;
                 //alert(radio);
-                
+
 
                 for (var i = 0; i < circulos.length; i++) {
 
@@ -174,8 +174,11 @@
                     circulos[i].style.top = posinicial + radio * Math.cos(rotAnt + rot + angulo * i + angulo / 2) + "px";
 
                 }
+                
+                rot -= (Math.PI * 2) / (circulos.length * 150) ; 
 
-                rot -= 0.005;
+                //rot -= 0.005;
+                /*
                 if (angulo + rot <= 0) {
                     clearInterval(timer);
                     rotAnt += rot;
@@ -183,16 +186,16 @@
                     dale = true;
                     //document.getElementById("cont").innerHTML += dale+"!";
                     //alert("caca");
-                }
+                }*/
             }
 
 
 
-            
+
 
 
             function girar() {
-                
+
                 if (dale) {
                     timer = setInterval(function () {
                         posicionar();
@@ -206,29 +209,35 @@
 
             }
 
-            
 
-            
+
+
             function calesita() {
+                girar();
+                /*
                 if (dale1) {
                     girar();
-                    timer2=setInterval(function () { girar(); }, 1500);
-                    dale1=false; 
-                }
+                    timer1 = setInterval(function () {
+                        girar();
+                    }, 1500);
+                    dale1 = false;
+                }*/
             }
-            
+
             function parar() {
-                clearInterval(timer2);
-                //clearInterval(timer); //comentar esta linea para el trompo loco
-                dale1=true;
                 
+                clearInterval(timer); //comentar esta linea para el trompo loco
+                dale = true;
+                //clearInterval(timer1);
+                //dale1=true;
+
             }
-            
+
             function seleccionar(nro, sel) {
                 //document.getElementById("p"+nro).style.top= sel ? "65px" : "150px";
-                document.getElementById("i"+nro).style.display=sel ? "none" : "block";
+                document.getElementById("i" + nro).style.display = sel ? "none" : "block";
             }
-            
+
             posicionar();
 
             //alert("culo");

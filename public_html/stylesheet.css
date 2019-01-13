@@ -49,7 +49,7 @@ header nav {
             }
             
             header nav ul li a:hover {
-                background: #55a5c1;
+                //background: #55a5c1;
                    text-align: center;
             } 
             
@@ -71,7 +71,12 @@ header nav {
 }
             
             
-            
+            #m1:hover{background:#C24157;}
+            #m2:hover{background:#ED8E56;}
+            #m3:hover{background:#FDCE72;}
+            #m4:hover{background:#90b784;}
+            #m5:hover{background:#5F5B8E;}
+            #m6:hover{background:#B04A71;}
             
 @font-face {
     font-family: 'rift';
